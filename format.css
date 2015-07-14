@@ -1,0 +1,83 @@
+body.home {
+    width: 100%;
+    height:100%;
+    margin:0; padding:0;
+    background-repeat:no-repeat;
+    background: #0C5C92;
+}
+body.plain {
+    background: black;
+}
+nav {
+    padding:5px;
+    background-color:black;
+    min-width:760px;
+}
+a.nav {
+    text-decoration: none;
+    color:whitesmoke;
+    font: bold 18px Verdana; 
+    margin-right:20px;
+    margin-left:80px;
+    text-shadow: 2px 2px 2px #808080;
+}
+a.hover:hover {
+    color: aqua;
+    text-shadow: 3px 3px 3px #2989d8;
+}
+div.img{
+    text-align:center;
+}
+.logo {
+    font:20px verdana;
+    color:whitesmoke;
+    text-align:center;
+    text-shadow:3px 3px 3px black;
+}
+
+div.content {
+    margin-left:330px;
+    margin-right:50px;
+    background:whitesmoke;
+   background: radial-gradient(ellipse at center, rgb(254,255,255) 0%,rgb(221,241,249) 92%,#2873A5 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(254,255,255) 0%,rgb(221,241,249) 92%,#2873A5 100%);
+}
+div.container {
+    z-index:0;
+    margin-left:50px;
+    margin-right:50px;
+    min-width:760px;
+    min-height:900px;
+    background: radial-gradient(ellipse at center, rgb(254,255,255) 0%,rgb(221,241,249) 35%, #0C5C92 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(254,255,255) 0%,rgb(221,241,249) 35%,#0C5C92 100%);
+    padding-bottom:50px;
+}
+div.containleft {
+    float:left;
+    margin:10px;
+    text-align:center;
+    z-index:1;
+}
+form.text {
+    font:16px verdana;
+    text-shadow:2px 2px 2px whitesmoke;
+}
+
+p.contact {
+    font: 18px verdana;
+    color: whitesmoke;
+    text-shadow:2px 2px 2px whitesmoke;
+}
+.buttonbar {
+   
+}
+.heading {
+    font:18px verdana;
+}
+.content {
+    font: 16px verdana;
+    text-shadow:2px 2px 2px whitesmoke;
+}
+
+.plain {
+}
