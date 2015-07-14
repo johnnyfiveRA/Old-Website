@@ -1,0 +1,6 @@
+service httpd stop
+cp -r /media/samba/Site\ Files/*.* /var/www/html
+cp -r /media/samba/Site\ Files/img/*.* /var/www/html/img
+cp -r /media/samba/Site\ Files/scripts/*.* /var/www/html/scripts
+echo "Copy complete"
+service httpd start
